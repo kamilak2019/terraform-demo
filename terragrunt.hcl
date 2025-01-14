@@ -1,3 +1,4 @@
+//configuration for all envs
 remote_state {
   backend = "s3"
   config = {
@@ -8,3 +9,5 @@ remote_state {
     dynamodb_table = replace("${path_relative_to_include()}-lock-table", "/", ".")
   }
 }
+//just forget
+
