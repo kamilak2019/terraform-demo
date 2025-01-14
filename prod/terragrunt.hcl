@@ -11,3 +11,4 @@ inputs = {
     instance_type = "t2.micro"
     region = "eu-west-3"
 }
+//config for specific env
